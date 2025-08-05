@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Addition {
+public class Substract {
 
     /**
      * Adds two integers and returns the result.
@@ -9,8 +9,8 @@ public class Addition {
      * @param b the second integer
      * @return the sum of a and b
      */
-    public int add(int a, int b) {
-        return a + b;
+    public int sub(int a, int b) {
+        return a - b;
     }
 
     public static void main(String[] args) {
@@ -22,10 +22,10 @@ public class Addition {
         System.out.print("Enter the second number: ");
         int b = sc.nextInt(); 
 
-        Addition calc = new Addition();
-        int result = calc.add(a, b);
+        Substract calc = new Substract();
+        int result = calc.sub(a, b);
 
-        System.out.println("Sum is: " + result);
+        System.out.println("Difference is: " + result);
 
         sc.close();  
     }
